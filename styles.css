@@ -106,13 +106,6 @@ main p {
     padding: 20px;
     margin-bottom: 20px;
 }
-/* resize placeholder */
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" class="card-img-top small-image" alt="Project 1">
-.small-image {
-    width: 32px; /* Adjusting size */
-    height: 32px; /* Maintain the aspect ratio */
-}
-
 
 #contact {
     background-color: #333;
