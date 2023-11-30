@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="cache-control" content="no-cache"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="-1"><style type="text/css">/* Styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tab p {
+    font-size: 18px;
+}
+
+.tab ul {
+    list-style: none;
+    display: flex;
+}
+
+.tab ul li {
+    margin-right: 20px;
+}
+
+.tab ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.tab ul li a:hover {
+    color: #002697;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text p {
+    font-size: 16px;
+}
+
+.header-text h1 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.header-text span {
+    color: #002697;
+}
+
+main {
+    padding: 50px 0;
+}
+
+main h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.exciting-card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.exciting-card:hover {
+    transform: scale(1.05);
+}
+
+#work {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#work h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#work article {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/* resize placeholder */
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" class="card-img-top small-image" alt="Project 1">
+.small-image {
+    width: 32px; /* Adjusting size */
+    height: 32px; /* Maintain the aspect ratio */
+}
+
+
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+details form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+form input,
+form textarea,
+button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #002697;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002697;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+</style>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Andrew's Portfolio</title>
+</head>
+<body>
+
+<header>
+    <section class="container">
+        <nav class="tab">
+            <ul id="sidemenu">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <aside class="header-text">
+            <b><p>Web Developer</p></b>
+            <span><h1>Welcome to Andrew's Portfolio</h1>
+        </span></aside>
+    </section>
+</header>
+
+<main id="about">
+    <!-- Modified content and structure for the about section -->
+    <section class="container">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate web developer with a background in creating responsive and user-friendly websites.
+        </p>
+        <p>
+            My skills include HTML, CSS, JavaScript, and various web development frameworks. I am dedicated to delivering high-quality
+            and visually appealing websites tailored to meet clients' needs.
+        </p>
+    </section>
+</main>
+
+ <img src="”(Andrew's-Portfolio\image\andrewtran300.jpg)”">
+
+<aside id="work">
+        <!-- structure for the work section -->
+    <section class="container py-5">
+        <h2 class="mb-4">My Projects:</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card exciting-card">
+                    <img src="https://www.wired.com/images_blogs/gamelife/2009/05/maplestory.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Classic MapleStory</h5>
+                        <p class="card-text">A 32 bit 2D MMORPG sidescrolling game that runs on Java, with game account management via Mysql and an interactive website for players to view the latest news, login and manage their account.</p>
+                        <a href="http://www.classicmaplestory.com" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            <div class="row">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card exciting-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" class="card-img-top" alt="Project 2"> 
+                    <div class="card-body">
+                        <h5 class="card-title">No project here yet!</h5>
+                        <p class="card-text">Nothing new added here yet.</p>
+                        <a href="http://nothinghereyet.com" class="btn btn-primary">Learn More</a>
+                    </div>
+        </div>
+    </div></div></div></section>
+</aside>
+
+
+<aside id="contact">
+    <section class="container text-center">
+        <h2>Get in Touch with me!</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required="">
+            <input type="email" name="email" placeholder="Your Email" required="">
+            <textarea name="message" rows="6" placeholder="Your Message" required=""></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</aside>
+
+<footer>
+    <p>Andrew Tran 2023</p>
+</footer>
+
+<script src="script.js"></script>
+
+
+
+<script>// Write JavaScript here</script></body>
