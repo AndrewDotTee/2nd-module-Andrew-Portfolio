@@ -1,2 +1,2 @@
-# Andrew-s-Portfolio
+# Andrew-Portfolio
 This is Andrew's Portfolio for USYD Bootcamp Module 2 Challenge.
