@@ -1,4 +1,4 @@
-# Andrew-Portfolio
+# 2nd-module-Andrew-Portfolio
 This is Andrew's Portfolio for USYD Bootcamp Module 2 Challenge.
 
 In this week's challenge we were commissioned to complete the task as below:
@@ -96,4 +96,4 @@ Overall the CSS code provides a basic, clean and visually appealing style for th
 https://andrewdottee.github.io/Andrew-Portfolio/
 
 **The URL of the GitHub repository:**
-https://github.com/AndrewDotTee/Andrew-Portfolio/
+https://github.com/AndrewDotTee/2nd-module-Andrew-Portfolio/
