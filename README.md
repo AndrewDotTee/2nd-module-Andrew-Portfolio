@@ -93,7 +93,7 @@ Overall the CSS code provides a basic, clean and visually appealing style for th
 --
 
 **The URL of the deployed application:**
-https://andrewdottee.github.io/Andrew-Portfolio/
+https://andrewdottee.github.io/2nd-module-Andrew-Portfolio/
 
 **The URL of the GitHub repository:**
 https://github.com/AndrewDotTee/2nd-module-Andrew-Portfolio/
